@@ -1,4 +1,4 @@
-package it.accademiaformaweb.giorno8.ditta.model;
+package ditta.model;
 
 public class Lavoratore extends Persona {
 

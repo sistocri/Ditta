@@ -1,4 +1,4 @@
-package it.accademiaformaweb.giorno8.ditta.model;
+package ditta.model;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

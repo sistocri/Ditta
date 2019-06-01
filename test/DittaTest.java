@@ -1,4 +1,4 @@
-package it.accademiaformaweb.giorno8.ditta.test;
+package ditta.test;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

@@ -1,7 +1,7 @@
 package ditta.model;
 
 import java.util.Scanner;
-import it.accademiaformaweb.giorno8.ditta.model.Persona;
+import ditta.model.Persona;
 
 public class DittaUtils {
 

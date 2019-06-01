@@ -1,4 +1,4 @@
-package it.accademiaformaweb.giorno8.ditta.model;
+package ditta.model;
 
 import java.util.Scanner;
 import it.accademiaformaweb.giorno8.ditta.model.Persona;
@@ -23,7 +23,7 @@ public class DittaUtils {
 				System.out.println("\nInserisci tipo di contratto");
 				String contratto = scanner.nextLine();
 
-				System.out.println("\nIl dipendente verr‡ assunto come: \n1) Lavoratore \n2) Stagista");
+				System.out.println("\nIl dipendente verr√† assunto come: \n1) Lavoratore \n2) Stagista");
 
 				int choice = Integer.parseInt(scanner.nextLine());
 

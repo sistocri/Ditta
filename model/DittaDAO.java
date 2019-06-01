@@ -8,7 +8,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
-import it.accademiaformaweb.giorno8.ditta.model.Persona;
+import ditta.model.Persona;
 
 public class DittaDAO {
 

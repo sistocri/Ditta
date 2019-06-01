@@ -1,4 +1,4 @@
-package it.accademiaformaweb.giorno8.ditta.model;
+package ditta.model;
 
 import java.util.ArrayList;
 
@@ -76,14 +76,14 @@ public class Ditta {
 
 				StringBuilder sb = new StringBuilder();
 				sb.append(((Lavoratore) p).getNome()).append(" ").append(((Lavoratore) p).getCognome()).append(": ")
-						.append(((Lavoratore) p).getStipendio()).append("€");
+						.append(((Lavoratore) p).getStipendio()).append("â‚¬");
 
 				System.out.println(sb.toString());
 				somma += ((Lavoratore) p).getStipendio();
 			}
 		}
 
-		System.out.println("\nTotale da versare: " + somma + "€");
+		System.out.println("\nTotale da versare: " + somma + "â‚¬");
 	}
 
 	public void stipendioAnnualeImpiegati() {
@@ -94,14 +94,14 @@ public class Ditta {
 
 				StringBuilder sb = new StringBuilder();
 				sb.append(((Lavoratore) p).getNome()).append(" ").append(((Lavoratore) p).getCognome()).append(": ")
-						.append(((Lavoratore) p).getStipendioAnnuale()).append("€");
+						.append(((Lavoratore) p).getStipendioAnnuale()).append("â‚¬");
 
 				System.out.println(sb.toString());
 				somma += ((Lavoratore) p).getStipendioAnnuale();
 			}
 		}
 
-		System.out.println("\nTotale da versare: " + somma + "€");
+		System.out.println("\nTotale da versare: " + somma + "â‚¬");
 	}
 
 	@Override

@@ -3,9 +3,9 @@ package ditta.test;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-import it.accademiaformaweb.giorno8.ditta.model.Ditta;
-import it.accademiaformaweb.giorno8.ditta.model.DittaDAO;
-import it.accademiaformaweb.giorno8.ditta.model.DittaUtils;
+import ditta.model.Ditta;
+import ditta.model.DittaDAO;
+import ditta.model.DittaUtils;
 
 public class DittaTest {
 

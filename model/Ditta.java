@@ -76,14 +76,14 @@ public class Ditta {
 
 				StringBuilder sb = new StringBuilder();
 				sb.append(((Lavoratore) p).getNome()).append(" ").append(((Lavoratore) p).getCognome()).append(": ")
-						.append(((Lavoratore) p).getStipendio()).append("â‚¬");
+						.append(((Lavoratore) p).getStipendio()).append("€");
 
 				System.out.println(sb.toString());
 				somma += ((Lavoratore) p).getStipendio();
 			}
 		}
 
-		System.out.println("\nTotale da versare: " + somma + "â‚¬");
+		System.out.println("\nTotale da versare: " + somma + "€");
 	}
 
 	public void stipendioAnnualeImpiegati() {
@@ -94,14 +94,14 @@ public class Ditta {
 
 				StringBuilder sb = new StringBuilder();
 				sb.append(((Lavoratore) p).getNome()).append(" ").append(((Lavoratore) p).getCognome()).append(": ")
-						.append(((Lavoratore) p).getStipendioAnnuale()).append("â‚¬");
+						.append(((Lavoratore) p).getStipendioAnnuale()).append("€");
 
 				System.out.println(sb.toString());
 				somma += ((Lavoratore) p).getStipendioAnnuale();
 			}
 		}
 
-		System.out.println("\nTotale da versare: " + somma + "â‚¬");
+		System.out.println("\nTotale da versare: " + somma + "€");
 	}
 
 	@Override

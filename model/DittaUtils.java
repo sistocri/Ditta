@@ -1,6 +1,7 @@
 package ditta.model;
 
 import java.util.Scanner;
+
 import ditta.model.Persona;
 
 public class DittaUtils {
@@ -23,7 +24,7 @@ public class DittaUtils {
 				System.out.println("\nInserisci tipo di contratto");
 				String contratto = scanner.nextLine();
 
-				System.out.println("\nIl dipendente verr√† assunto come: \n1) Lavoratore \n2) Stagista");
+				System.out.println("\nIl dipendente verr‡ assunto come: \n1) Lavoratore \n2) Stagista");
 
 				int choice = Integer.parseInt(scanner.nextLine());
 
@@ -42,6 +43,9 @@ public class DittaUtils {
 					Studente studente = new Studente(nome, cognome, annoNascita, contratto);
 					ditta.assumiPersona(studente);
 					break;
+					
+					default:
+						System.out.println("Scelta effettuata non valida. Riprova.\n");
 				}
 				return;
 
